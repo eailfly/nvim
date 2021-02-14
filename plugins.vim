@@ -23,5 +23,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'vim-airline/vim-airline-themes'
     " Fast comment in vim
     Plug 'tpope/vim-commentary'
+    " Show colors inplace
+    Plug 'norcalli/nvim-colorizer.lua'
+    " Colorful parentheses
+    Plug 'junegunn/rainbow_parentheses.vim'
 
 call plug#end()

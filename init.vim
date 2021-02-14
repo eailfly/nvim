@@ -3,3 +3,5 @@ source $HOME/.config/nvim/mappings.vim
 source $HOME/.config/nvim/plugins.vim
 source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/themes/airline.vim
+source $HOME/.config/nvim/plugins-config.vim
+luafile $HOME/.config/nvim/lua/plug-colorizer.lua
