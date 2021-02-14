@@ -8,3 +8,7 @@ nnoremap <M-l> :vertical resize +2<CR>
 nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
 nnoremap <S-TAB> :bprevious<CR>
+
+" keymapping for commentary
+nnoremap <space>/ :Commentary<CR>
+vnoremap <space>/ :Commentary<CR>

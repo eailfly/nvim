@@ -21,5 +21,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
+    " Fast comment in vim
+    Plug 'tpope/vim-commentary'
 
 call plug#end()
