@@ -20,7 +20,7 @@ set shiftwidth=2                        " Change the number of space characters 
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
 set expandtab                           " Converts tabs to spaces
 "set smartindent                         " Makes indenting smart
-set autoindent                          " Good auto indent
+"set autoindent                          " Good auto indent
 set laststatus=0                        " Always display the status line
 set number                              " Line numbers
 set cursorline                          " Enable highlighting of the current line
