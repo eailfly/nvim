@@ -106,6 +106,9 @@ local mappings = {
   },
 
   g = {
+    name = "Comments",
+    c = { "<cmd>lua require(\"Comment.api\").toggle_current_linewise()<CR>", "Comment" },
+    --[[
     name = "Git",
     g = { "<cmd>lua _LAZYGIT_TOGGLE()<CR>", "Lazygit" },
     j = { "<cmd>lua require 'gitsigns'.next_hunk()<cr>", "Next Hunk" },
@@ -126,6 +129,7 @@ local mappings = {
       "<cmd>Gitsigns diffthis HEAD<cr>",
       "Diff",
     },
+    --]]
   },
 
   l = {
