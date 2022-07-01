@@ -1,7 +1,7 @@
 return {
-	settings = {
+  settings = {
     solargraph = {
       completion = true
     }
-	},
+  },
 }
